@@ -1,4 +1,8 @@
 -- What are all the neighborhoods, alphabetically?
+SELECT DISTINCT neighborhood
+FROM listings
+ORDER BY neighborhood
+
 
 -- +------------------------+
 -- | Albany Park            |
